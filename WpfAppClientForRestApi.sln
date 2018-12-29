@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppClientForRestApi", "WpfAppClientForRestApi\WpfAppClientForRestApi.csproj", "{B75FC1E0-8223-457E-8094-BB8D4B1DD033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryWpfRest", "ClassLibraryWpfRest\ClassLibraryWpfRest.csproj", "{7D1CB53D-C9DB-48BE-9873-069327ADEEDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75FC1E0-8223-457E-8094-BB8D4B1DD033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75FC1E0-8223-457E-8094-BB8D4B1DD033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75FC1E0-8223-457E-8094-BB8D4B1DD033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75FC1E0-8223-457E-8094-BB8D4B1DD033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1CB53D-C9DB-48BE-9873-069327ADEEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1CB53D-C9DB-48BE-9873-069327ADEEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1CB53D-C9DB-48BE-9873-069327ADEEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1CB53D-C9DB-48BE-9873-069327ADEEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED48AF78-3449-40B7-93A6-521ECAB4A51B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfAppClientForRestApi.AddModal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppClientForRestApi"
+        mc:Ignorable="d"
+        Title="Add Mobile" Height="200" Width="300">
+    <Grid>
+        <Label Content="Input Name" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="102,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" x:Name="tbName"/>
+        <Label Content="Select File" HorizontalAlignment="Left" Margin="24,74,0,0" VerticalAlignment="Top" />
+        <Button Content="Yes" HorizontalAlignment="Left" Margin="81,133,0,0" VerticalAlignment="Top" Width="75" x:Name="btnYes" Click="btnYes_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="185,133,0,0" VerticalAlignment="Top" Width="75" x:Name="btnNo" Click="btnNo_Click" />
+        <Button Content="Choose file" HorizontalAlignment="Left" Margin="102,77,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
+
+    </Grid>
+</Window>
